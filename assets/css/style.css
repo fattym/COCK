@@ -653,7 +653,8 @@ section {
   transition: 0.5s;
   color: #fff;
   background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
-  position: relative;
+  /* position: relative; */
+  align-items: center;
 }
 
 .about .content .read-more:hover {
