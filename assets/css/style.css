@@ -366,19 +366,21 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color:rgba(127, 137, 161, 0.25);
+  background-color: rgba(33, 66, 143, 0.25);
   overflow-y: auto;
   transition: 0.3s;
   border: 0.5px solid rgba(197, 194, 188, 0.938);
   border-radius: 2%;
-  
+
 }
 
 .navbar-mobile>ul>li {
   padding: 0;
-  border:  #fff;
-  
+  border: #fff;
+
 }
+
+/* copy this background: rgba(47, 64, 158, 0.219); */
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
@@ -386,7 +388,7 @@ h6 {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
   align-items: center;
- 
+
 }
 
 .navbar-mobile a:hover:before,
@@ -431,6 +433,7 @@ h6 {
 }
 
 .navbar-mobile .dropdown ul a i {
+
   font-size: 12px;
 }
 
@@ -454,7 +457,7 @@ h6 {
   background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(15, 51, 214, 0.9) 100%), url("../img/m-blog-5.jpg") center center no-repeat;
 
   background-size: cover;
-  
+
 }
 
 #hero .container,
@@ -494,7 +497,7 @@ h6 {
 #hero .btn-get-started:hover {
   background: #fff;
   color: #5846f9;
- 
+
 }
 
 #hero .animated {
@@ -665,7 +668,7 @@ section {
   transition: 0.5s;
   color: #fff;
   background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
-  /* position: relative; */
+  position: relative;
   align-items: center;
 }
 
@@ -1487,10 +1490,11 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background:  linear-gradient(45deg, rgba(75, 47, 240, 0.9) 100%, rgba(15, 51, 214, 0.9) 0%);
+  /* background: linear-gradient(45deg, rgba(75, 47, 240, 0.9) 100%, rgba(15, 51, 214, 0.9) 0%); */
   /* linear-gradient(45deg, #5846f9 0%, #7b27d8 100%) */
   min-height: 40px;
   margin-top: 85px;
+  background-color: #fff;
 }
 
 @media (max-width: 992px) {
@@ -1502,7 +1506,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 300;
-  color: white;
+  color: black;
 }
 
 .breadcrumbs ol {
